@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ToDoorNot</string>
+    <string name="add_title">Add Title</string>
+    <string name="create_new_title">Add List Title Succeed</string>
+    <string name="login_header">User Info</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="font_header">Settings</string>
+    <string name="backgroundcolor">Background Color</string>
+    <string name="backgroundcolor_summary">choose the background color</string>
+    <string name="font_color">Font Color</string>
+    <string name="font_color_summary">choose the font color</string>
+    <string name="font_size">Font Size</string>
+    <string name="font_size_summary">choose the font size</string>
+    <string name="create_new_item">Add item successfully</string>
+    <string name="failure_create_new_item">You need to add a title first</string>
+    <string name="update_selected_item">Update Successfully</string>
+    <string name="delete_item">Delete Item Successfully</string>
+    <string name="post_item_success">Post Data to Server Successfully</string>
+    <string name="post_item_failure">Post Data Failure</string>
+    <string name="post_title_all_items">Post All Items Successfully</string>
+</resources>

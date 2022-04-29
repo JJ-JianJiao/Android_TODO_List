@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:paddingTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_buttons_linear_layout">
+
+        <TextView
+            android:id="@+id/item_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/josefin_sans"
+            android:text="Date"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item_completed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:fontFamily="@font/josefin_sans"
+            android:text="Completed"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/josefin_sans"
+        android:text="Description"
+        android:textSize="24sp"
+        android:paddingTop="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/item_delete_button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_delete_button_style"
+            android:gravity="center"
+            android:text="Delete"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="10sp"
+            android:visibility="gone"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/item_archive_button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_archive_button_style"
+            android:gravity="center"
+            android:text="Archive"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="10sp"
+            android:visibility="gone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/item_done_button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_done_button_style"
+            android:gravity="center"
+            android:text="Done"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="10sp"
+            android:visibility="gone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</LinearLayout>

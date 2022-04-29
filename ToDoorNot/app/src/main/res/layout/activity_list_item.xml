@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListItemActivity"
+    android:id="@+id/activity_list_item_main_layout">
+
+    <LinearLayout
+        android:id="@+id/itemPageTitleLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/activity_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#A66F6F"
+            android:drawableEnd="@android:drawable/ic_input_add"
+            android:fontFamily="@font/josefin_sans"
+            android:paddingEnd="5dp"
+            android:text="List Items"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/activity_list_item_reminder_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/josefin_sans"
+        android:text="You need to Add a List Title First"
+        android:textSize="30sp"
+        android:layout_below="@id/itemPageTitleLinearLayout"
+        android:background="#ffffff"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/titleSpinnerHeaderTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_list_item_reminder_spinner"
+        android:fontFamily="@font/josefin_sans"
+        android:text="Pick your List Title:"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp" />
+
+    <Spinner
+        android:id="@+id/listTitleSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleSpinnerHeaderTextView"
+        android:spinnerMode="dropdown"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/spinner_border"/>
+
+    <TextView
+        android:id="@+id/activity_list_item_reminder_itemlistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/josefin_sans"
+        android:text="Please Add an Item"
+        android:textSize="30sp"
+        android:layout_below="@id/listTitleSpinner"
+        android:background="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/item_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/activity_list_item_reminder_itemlistview"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+</RelativeLayout>

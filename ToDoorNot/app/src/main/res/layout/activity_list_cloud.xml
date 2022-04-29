@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListCloudActivity"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/activity_list_cloud_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#A66F6F"
+        android:fontFamily="@font/josefin_sans"
+        android:paddingEnd="5dp"
+        android:text="Archived Items"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/activity_cloud_item_list_reminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/josefin_sans"
+        android:text="There is no Item on the Server"
+        android:textSize="30sp"
+        android:background="#ffffff"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/cloud_items_listview"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"/>
+
+
+</LinearLayout>

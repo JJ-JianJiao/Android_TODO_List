@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color_options">
+        <item>Black</item>
+        <item>White</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Green</item>
+        <item>Magenta</item>
+        <item>Yellow</item>
+    </string-array>
+
+    <string-array name="color_options_values">
+        <item>Black</item>
+        <item>White</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Green</item>
+        <item>Magenta</item>
+        <item>Yellow</item>
+    </string-array>
+
+    <string-array name="font_size_options">
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+    </string-array>
+
+    <string-array name="font_size_options_values">
+        <item>18</item>
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+
+    <string-array name="bg_color_options">
+        <item>White</item>
+        <item>Darker Gray</item>
+        <item>Blue Bright</item>
+        <item>Blue Dark</item>
+        <item>Blue Light</item>
+        <item>Green Dark</item>
+        <item>Green Light</item>
+        <item>Orange Dark</item>
+        <item>Orange light</item>
+        <item>Purple</item>
+        <item>Red Dark</item>
+        <item>Red Light</item>
+    </string-array>
+
+    <string-array name="bg_color_options_values">
+        <item name="white">#ffffff</item>
+        <item name="darker_gray">#aaaaaa</item>
+        <item name="holo_blue_bright">#00ddff</item>
+        <item name="holo_blue_dark">#0099cc</item>
+        <item name="holo_blue_light">#33b5e5</item>
+        <item name="holo_green_dark">#669900</item>
+        <item name="holo_green_light">#99cc00</item>
+        <item name="holo_orange_dark">#ff8800</item>
+        <item name="holo_orange_light">#ffbb33</item>
+        <item name="holo_purple">#aa66cc</item>
+        <item name="holo_red_dark">#cc0000</item>
+        <item name="holo_red_light">#ff4444</item>
+    </string-array>
+</resources>

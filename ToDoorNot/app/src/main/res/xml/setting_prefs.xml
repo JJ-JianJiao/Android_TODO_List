@@ -1,0 +1,48 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/login_header">
+
+
+        <EditTextPreference
+            android:key="username_pref"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/username"
+            android:defaultValue="default"/>
+        <EditTextPreference
+            android:key="password_pref"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/password"
+            android:defaultValue="default"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/font_header">
+        <ListPreference android:key="background_color_pref"
+            android:title="@string/backgroundcolor"
+            android:summary="@string/backgroundcolor_summary"
+            android:entries="@array/bg_color_options"
+            android:entryValues="@array/bg_color_options_values"
+            android:dialogTitle="@string/backgroundcolor"
+            android:defaultValue="#ffffff"
+            />
+        <ListPreference android:key="font_color_pref"
+            android:title="@string/font_color"
+            android:summary="@string/font_color_summary"
+            android:entries="@array/color_options"
+            android:entryValues="@array/color_options_values"
+            android:dialogTitle="@string/font_color"
+            android:defaultValue="Black"
+            />
+        <ListPreference android:key="font_size_pref"
+            android:title="@string/font_size"
+            android:summary="@string/font_size_summary"
+            android:entries="@array/font_size_options"
+            android:entryValues="@array/font_size_options_values"
+            android:dialogTitle="@string/font_size"
+            android:defaultValue="24"
+            />
+
+    </PreferenceCategory>
+</PreferenceScreen>
